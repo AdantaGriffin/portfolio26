@@ -1,4 +1,32 @@
 .contact{
     border: 1px solid black;
     height: 800px;
+    align-content: center;
+}
+/*
+a[href^="mailto"]::before{
+    content: " ✉️ ";
+}
+a[href^="tel"]::before{
+    content: " 📞 ";
+}
+*/
+.contactContainer{
+    height: 90%;
+    .addressLinks{
+        border: 1px solid black;
+        height: 90%;
+        align-content: center;
+        .addressSection{
+            border: 1px solid red;
+            width: 50%;
+            height: 50%;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+            a{
+                border: 1px solid black;
+            }
+        }
+    }
 }

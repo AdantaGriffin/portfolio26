@@ -1,4 +1,27 @@
 .projects{
     border: 1px solid black;
     height: 800px;
+    align-content: center;
+}
+.projectsContainer{
+    border: 1px solid black;
+    height: 90%;
+    .projectsBlock{
+        height: 80%;
+        overflow-x: scroll;
+    .projectCard{
+        border: 1px solid blue;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .projectLinks{
+        display: flex;
+        justify-content: space-evenly;
+        border-top: 1px solid grey;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
 }

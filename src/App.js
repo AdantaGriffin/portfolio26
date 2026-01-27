@@ -1,4 +1,5 @@
 import './App.scss'
+import styles from './App.scss';
 import Hero from './components/Hero/hero';
 import About from './components/About/about';
 import Projects from './components/Projects/projects';
@@ -8,7 +9,7 @@ import Footer from './components/Footer/footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
 
       <Hero/>
       <About/>

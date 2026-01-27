@@ -1,4 +1,27 @@
 .skills{
     border: 1px solid black;
     height: 800px;
+    align-content: center;
+}
+.skillsContainer{
+    border: 1px solid black;
+    height: 90%;
+    .languages{
+        align-content: center;
+        height: 80%;
+    }
+    .skillBlock{
+        .skillList{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            .skill{
+                border: 1px solid black;
+                width: 150px;
+                margin: 5px;
+                padding: 5px;
+                text-align: center;
+            }
+        }
+    }
 }
