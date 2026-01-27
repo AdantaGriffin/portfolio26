@@ -36,7 +36,7 @@ This portfolio was created to showcase my projects and achievements completed as
 
 Steps to run the project locally:
 ```
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/AdantaGriffin/portfolio26.git
 cd project-name
 npm install
 npm start
