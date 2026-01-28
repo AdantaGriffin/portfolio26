@@ -4,7 +4,7 @@ import styles from './about.module.scss';
 function About(){
     return(
         <>
-            <section className={styles.about}>
+            <section id="about" className={styles.about}>
 
                 <article className={styles.aboutContainer}>
                     <h2>About</h2>

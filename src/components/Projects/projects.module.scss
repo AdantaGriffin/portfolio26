@@ -1,27 +1,47 @@
 .projects{
-    border: 1px solid black;
-    height: 800px;
+    height: 100vh;
     align-content: center;
 }
 .projectsContainer{
-    border: 1px solid black;
-    height: 90%;
+    height: 100%;
     .projectsBlock{
-        height: 80%;
-        overflow-x: scroll;
+        height: 70%;
+        width: 70%;
+        margin: auto;
+        overflow-x:scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        scroll-padding-top: 100%;
     .projectCard{
         border: 1px solid blue;
+        display: grid;
+        grid-template-rows: 90% 10%;
         margin-bottom: 10px;
         text-align: center;
+        height: 400px;
+        scroll-snap-stop: always;
+        scroll-snap-align: end;
     }
     .projectLinks{
         display: flex;
         justify-content: space-evenly;
         border-top: 1px solid grey;
+        align-items: center;
         a{
             text-decoration: none;
             color: black;
         }
     }
 }
+    .viewMore{
+        width: 100%;
+        text-align: center;
+        a{
+            color: black;
+            text-decoration: none;
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 20px;
+        }
+    }
 }

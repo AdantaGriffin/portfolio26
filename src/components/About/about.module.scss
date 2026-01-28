@@ -1,13 +1,11 @@
 .about{
-    border: 1px solid black;
-    height: 800px;
+    height: 100vh;
     align-content: center;
 }
 .aboutContainer{
-    height: 90%;
-    border: 1px solid black;
+    height: 100%;
     .aboutBlock{
-        height: 80%;
+        height: 90%;
         align-content: center;
         font: {
             size: 1.5em;

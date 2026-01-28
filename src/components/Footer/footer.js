@@ -4,7 +4,7 @@ import styles from './footer.module.scss';
 function Footer(){
     return (
         <>
-            <div>2020 Adanta Griffin. Built with React</div>
+            <section>2020 Adanta Griffin. Built with React</section>
         </>
     )
 };

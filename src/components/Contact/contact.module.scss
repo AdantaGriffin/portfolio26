@@ -1,6 +1,5 @@
 .contact{
-    border: 1px solid black;
-    height: 800px;
+    height: 100vh;
     align-content: center;
 }
 /*
@@ -12,9 +11,8 @@ a[href^="tel"]::before{
 }
 */
 .contactContainer{
-    height: 90%;
+    height: 100%;
     .addressLinks{
-        border: 1px solid black;
         height: 90%;
         align-content: center;
         .addressSection{

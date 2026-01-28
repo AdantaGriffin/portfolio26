@@ -4,7 +4,7 @@ import styles from './projects.module.scss';
 function Projects(){
     return (
         <>
-            <div className={styles.projects} id="projects">
+            <section className={styles.projects} id="projects">
 
                 <article className={styles.projectsContainer}>
                     <h2>Projects</h2>
@@ -13,53 +13,61 @@ function Projects(){
 
                     <blockquote className={styles.projectsBlock}>
                         <article className={styles.projectCard}>
-                            <h3>title</h3>
-                            <p>short description</p>
-                            <p>tech stack</p>
-                            <section className={styles.projectLinks}>
+                            <div>
+                                <h3>title</h3>
+                                <p>short description</p>
+                                <p>tech stack</p>
+                            </div>
+                            <div className={styles.projectLinks}>
                                 <a href="#">github</a>
                                 <br/>
                                 <a href="#">live demo</a>
-                            </section>
+                            </div>
                         </article>
 
                         <article className={styles.projectCard}>
-                            <h3>title</h3>
-                            <p>short description</p>
-                            <p>tech stack</p>
-                            <section className={styles.projectLinks}>
+                            <div>
+                                <h3>title</h3>
+                                <p>short description</p>
+                                <p>tech stack</p>
+                            </div>
+                            <div className={styles.projectLinks}>
                                 <a href="#">github</a>
                                 <br/>
-                                <a href="#">view live</a>
-                            </section>
+                                <a href="#">live demo</a>
+                            </div>
                         </article>
 
                         <article className={styles.projectCard}>
-                            <h3>title</h3>
-                            <p>short description</p>
-                            <p>tech stack</p>
-                            <section className={styles.projectLinks}>
+                            <div>
+                                <h3>title</h3>
+                                <p>short description</p>
+                                <p>tech stack</p>
+                            </div>
+                            <div className={styles.projectLinks}>
                                 <a href="#">github</a>
                                 <br/>
-                                <a href="#">view live</a>
-                            </section>
+                                <a href="#">live demo</a>
+                            </div>
                         </article>
 
                         <article className={styles.projectCard}>
-                            <h3>title</h3>
-                            <p>short description</p>
-                            <p>tech stack</p>
-                            <section className={styles.projectLinks}>
+                            <div>
+                                <h3>title</h3>
+                                <p>short description</p>
+                                <p>tech stack</p>
+                            </div>
+                            <div className={styles.projectLinks}>
                                 <a href="#">github</a>
                                 <br/>
-                                <a href="#">view live</a>
-                            </section>
+                                <a href="#">live demo</a>
+                            </div>
                         </article>
                     </blockquote>
-
+                    <p className={styles.viewMore}><a href="#">view more</a></p>
                 </article>
                 
-            </div>
+            </section>
         </>
     )
 };

@@ -7,12 +7,12 @@ function Skills(){
     console.log(skills)
     return(
         <>
-            <div className={styles.skills}>
+            <section id="skills" className={styles.skills}>
+                    <h2>Skills</h2>
 
                <article className={styles.skillsContainer}>
-                    <h2>Skills</h2>
                     <article className={styles.languages}>
-                        <section className={styles.languageSkills}>
+                        <div className={styles.languageSkills}>
                             <h3>Frontend Stack</h3>
                             <blockquote className={styles.skillBlock}>
                                 <ul className={styles.skillList}>
@@ -21,10 +21,10 @@ function Skills(){
                                     ))}
                                 </ul>
                             </blockquote>
-                        </section>
+                        </div>
                     </article>
                </article>
-            </div>
+            </section>
         </>
     )
 };

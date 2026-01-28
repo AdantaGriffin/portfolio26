@@ -4,14 +4,14 @@ import styles from './contact.module.scss';
 function Contact(){
     return(
         <>
-            <div className={styles.contact} id="contact">
+            <section className={styles.contact} id="contact">
+                    <h2>Contact</h2>
 
                 <article className={styles.contactContainer}>
-                    <h2>Contact</h2>
 
                     <p>I'm currently open to frontend opportunities.If you'd like to connect, feel free to reach out.</p>
 
-                    <section className={styles.addressLinks}>
+                    <address className={styles.addressLinks}>
                         <div className={styles.addressSection}>
                             <h3>Phone</h3>
                             <a href="tel:17188202506">718.820.2506</a>
@@ -22,9 +22,9 @@ function Contact(){
                             <h3>LinkedIn</h3>
                             <a href="#">linkedin</a>
                         </div>
-                    </section>
+                    </address>
                 </article>
-            </div>
+            </section>
         </>
     )
 };
