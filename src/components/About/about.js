@@ -15,7 +15,7 @@ function About(){
                             <img src="#" alt="image1"/>
                         </div>
                         <div className={styles.two}>
-                            <aside>With my free time I like spending time in the gym with friends, reading a book, or out with friends.</aside>
+                            <aside>With my free time I like spending time in the gym, reading a book, or out with friends.</aside>
                             <img alt="image2"/>
                         </div>
                         <div className={styles.three}>

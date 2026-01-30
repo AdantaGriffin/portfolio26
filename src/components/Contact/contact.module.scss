@@ -1,6 +1,7 @@
 .contact{
     height: 120vh;
     align-content: center;
+    background-color: #6baed6;
 }
 /*
 a[href^="mailto"]::before{
@@ -15,21 +16,29 @@ a[href^="tel"]::before{
     text-align: center;
 
     .contactForm{
+        box-shadow: 1px 1px 10px grey;
         padding: 20px;
+            min-width: 390px;
         width: 70%;
         margin: auto;
         display: grid;
         grid-template-rows: 10% 40% 30% 10%;
         .userInput > div{
             width: 250px;
-            margin: auto;
+            margin: 10px auto;
             input{
                 width: 200px;
             }
         }
         textarea, .submit{
             width: 60%;
-            margin: auto;
+            min-width: 350px;
+            margin: 5px auto;
+        }
+        .submit{
+            &:hover{
+                cursor: pointer;
+            }
         }
     }
 
@@ -41,10 +50,11 @@ a[href^="tel"]::before{
         width: 100%;
         align-items: center;
         > div{
-            border: 1px solid black;
+            box-shadow: 1px 1px 10px grey;
             height: 150px;
             width: 150px;
             align-content: center;
+            background-color: whitesmoke;
         }
     }
 }

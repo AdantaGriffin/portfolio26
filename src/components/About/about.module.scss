@@ -20,13 +20,15 @@
 .about{
     height: 100vh;
     align-content: center;
+    background-color: #3182bd;
+    background: linear-gradient(to bottom, #3182bd, #6baed6);
 }
 .aboutContainer{
-    height: 90%;
+    height: 100%;
     .aboutBlock{
         align-content: center;
-        border: 1px solid red;
-        height: 90%;
+        padding-top: 40px;
+        height: 70%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }

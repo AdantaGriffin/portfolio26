@@ -17,6 +17,7 @@
     height: 100vh;
     align-content: center;
     margin-top: 5%;
+    background: linear-gradient(to bottom, #08519C, #3182bd);
     nav{
         height: 6%;
         width: 100%;
@@ -25,6 +26,7 @@
         background-color: white;
         border-bottom: 1px solid grey;
         z-index: 10;
+    background: linear-gradient(to bottom, #05325f, #08519C);
         .heroNav{
             display: flex;
             justify-content: space-evenly;
@@ -70,6 +72,7 @@
         background-image: url('../../../public/hero-pro.avif');
         background-size: cover;
         background-position-x: -45px;
+        border-radius: 50%;
         height: 180%;
         position: relative;
         bottom: 120px;
