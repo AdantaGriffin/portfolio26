@@ -1,14 +1,33 @@
+@media screen and (max-width: 1000px){
+    .aboutBlock{
+        display: block !important;
+        p{
+            border: 1px solid purple;
+            height: 200px;
+        }
+    }
+        .one{
+            border: 1px solid red;
+            position: relative;
+            bottom: 200px;
+        }
+        .three{
+            border: 1px solid red;
+            position: relative;
+            top: 200px;
+        }
+}
 .about{
     height: 100vh;
     align-content: center;
 }
 .aboutContainer{
-    height: 100%;
+    height: 90%;
     .aboutBlock{
-        height: 90%;
         align-content: center;
-        font: {
-            size: 1.5em;
-        }
+        border: 1px solid red;
+        height: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

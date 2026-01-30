@@ -1,27 +1,27 @@
 import React from 'react';
+import { NavLink, Link } from 'react-router-dom';
 import styles from './hero.module.scss';
 
 function Hero(){
     return(
         <>
-            <section id="home" className={styles.hero}>
-                <nav>
+            <section id="home" className={styles.hero} arial-lable="Hero Section">
+                <nav arial-label="Page Navigation">
                     <ul className={styles.heroNav}>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a className={ ({isActive}) => `nav-link ${isActive? 'nav-link-active': ''}`} href="#home">home</a></li>
+                        <li><a className={ ({isActive}) => `nav-link ${isActive? 'nav-link-active': ''}`} href="#about">about</a></li>
+                        <li><a className={ ({isActive}) => `nav-link ${isActive? 'nav-link-active': ''}`} href="#projects">projects</a></li>
+                        <li><a className={ ({isActive}) => `nav-link ${isActive? 'nav-link-active': ''}`} href="#skills">skills</a></li>
+                        <li><a className={ ({isActive}) => `nav-link ${isActive? 'nav-link-active': ''}`} href="#contact">contacts</a></li>
                     </ul>
                 </nav>
                 <article className={styles.heroContainer}>
-                    <p className={styles.heroHeading}>
-                        <h1>Hi. I'm Adanta</h1>
-                        <h2>Frontend developer</h2>
-                    </p>
-                    <div className={styles.heroLinks}>
-                        <a aria-label="View portfolio projects" href="#projects">Projects</a>
-                        <a aria-label="Go to contacts" href="#contact">Contact Me</a>
+                    <div className={styles.heroLeft}>
+                        <h1 className={styles.subHeader}>Hi, I'm Adanta Griffin</h1>
+                        <h1>FRONT END DEVELOPER</h1>
+                    </div>
+                    <div className={styles.heroRight}>
+                        
                     </div>
                 </article>
             </section>

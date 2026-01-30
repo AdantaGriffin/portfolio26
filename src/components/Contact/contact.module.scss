@@ -1,5 +1,5 @@
 .contact{
-    height: 100vh;
+    height: 120vh;
     align-content: center;
 }
 /*
@@ -12,19 +12,39 @@ a[href^="tel"]::before{
 */
 .contactContainer{
     height: 100%;
-    .addressLinks{
-        height: 90%;
-        align-content: center;
-        .addressSection{
-            border: 1px solid red;
-            width: 50%;
-            height: 50%;
+    text-align: center;
+
+    .contactForm{
+        padding: 20px;
+        width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 10% 40% 30% 10%;
+        .userInput > div{
+            width: 250px;
             margin: auto;
-            text-align: center;
-            align-content: center;
-            a{
-                border: 1px solid black;
+            input{
+                width: 200px;
             }
+        }
+        textarea, .submit{
+            width: 60%;
+            margin: auto;
+        }
+    }
+
+    .addressLinks{
+        height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        width: 100%;
+        align-items: center;
+        > div{
+            border: 1px solid black;
+            height: 150px;
+            width: 150px;
+            align-content: center;
         }
     }
 }

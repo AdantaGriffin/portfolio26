@@ -8,22 +8,17 @@ function Skills(){
     return(
         <>
             <section id="skills" className={styles.skills}>
-                    <h2>Skills</h2>
+                    <h2>Skill Stack</h2>
 
                <article className={styles.skillsContainer}>
-                    <article className={styles.languages}>
-                        <div className={styles.languageSkills}>
-                            <h3>Frontend Stack</h3>
                             <blockquote className={styles.skillBlock}>
                                 <ul className={styles.skillList}>
                                     {skills.map(x => (
-                                        <li className={styles.skill}>{x}</li>
+                                        <li className={styles.skill}><p>{x}</p></li>
                                     ))}
                                 </ul>
                             </blockquote>
-                        </div>
                     </article>
-               </article>
             </section>
         </>
     )
